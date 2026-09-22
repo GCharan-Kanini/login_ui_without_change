@@ -1,0 +1,28 @@
+{
+  "name": "application",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Created by Propel provisioning for a repository that had no package manifest.",
+  "scripts": {
+    "test": "npx vitest run"
+  },
+  "dependencies": {
+    "react": "*",
+    "react-dom": "*",
+    "@mui/material": "*",
+    "@mui/icons-material": "*",
+    "@emotion/react": "*",
+    "@emotion/styled": "*",
+    "react-router-dom": "*",
+    "react-hook-form": "*",
+    "vite": "*",
+    "typescript": "*",
+    "vitest": "*",
+    "@testing-library/react": "*",
+    "jsdom": "*",
+    "@vitejs/plugin-react": "*"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "*"
+  }
+}
