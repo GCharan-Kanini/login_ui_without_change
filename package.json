@@ -1,27 +1,29 @@
 {
-  "name": "application",
-  "version": "0.1.0",
+  "name": "login_ui_without_change",
+  "version": "0.0.0",
   "private": true,
-  "description": "Created by Propel provisioning for a repository that had no package manifest.",
   "scripts": {
-    "test": "npx vitest run"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest"
   },
   "dependencies": {
-    "react": "*",
-    "react-dom": "*",
-    "@mui/material": "*",
-    "@mui/icons-material": "*",
-    "@emotion/react": "*",
-    "@emotion/styled": "*",
-    "react-router-dom": "*",
-    "react-hook-form": "*",
-    "vite": "*",
-    "typescript": "*",
-    "vitest": "*",
-    "@testing-library/react": "*",
-    "jsdom": "*"
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "@mui/material": "^5.14.0",
+    "@mui/icons-material": "^5.14.0",
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "react-router-dom": "^6.16.0",
+    "react-hook-form": "^7.50.0"
   },
   "devDependencies": {
-    "@testing-library/jest-dom": "*"
+    "vite": "^5.0.0",
+    "typescript": "^5.2.0",
+    "vitest": "^3.2.0",
+    "@testing-library/react": "^16.0.0",
+    "jsdom": "^22.1.0",
+    "@vitejs/plugin-react": "^4.0.0"
   }
 }
